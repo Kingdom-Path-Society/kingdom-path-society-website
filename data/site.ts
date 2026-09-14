@@ -12,6 +12,8 @@ export const site = {
 };
 
 export const navigation = [
+  { label: "PDF Tools", href: "/pdf-tools" },
+  { label: "Resources", href: "/resources" },
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },
   { label: "Volunteer", href: "/volunteer" },
@@ -20,17 +22,35 @@ export const navigation = [
 ];
 
 export const serviceLinks = [
-  { label: "Refugee Sponsorship", href: "/refugee-sponsorship" },
-  { label: "Humanitarian Services", href: "/humanitarian-services" },
-  { label: "Newcomer Support", href: "/newcomer-support" }
+  {
+    label: "Refugee Sponsorship",
+    href: "/refugee-sponsorship"
+  },
+  {
+    label: "Humanitarian Services",
+    href: "/humanitarian-services"
+  },
+  {
+    label: "Newcomer Support",
+    href: "/newcomer-support"
+  }
 ];
 
 export const allPageLinks = [
   ...navigation,
   ...serviceLinks,
-  { label: "Stories & Updates", href: "/stories-updates" },
-  { label: "Client Portal", href: "/client-portal" },
-  { label: "Admin Dashboard", href: "/admin-dashboard" }
+  {
+    label: "Stories & Updates",
+    href: "/stories-updates"
+  },
+  {
+    label: "Client Portal",
+    href: "/client-portal"
+  },
+  {
+    label: "Admin Dashboard",
+    href: "/admin-dashboard"
+  }
 ];
 
 export const values = [
