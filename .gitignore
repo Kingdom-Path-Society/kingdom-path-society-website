@@ -7,3 +7,6 @@ tsconfig.tsbuildinfo
 .env.local
 .vercel
 .env*
+
+KPS-*.zip
+KPS-*/
